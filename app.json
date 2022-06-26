@@ -7,7 +7,7 @@
     "sharing"
   ],
   "repository": "https://github.com/ReyyNada/ReyyFileSharing2",
-  "logo": "https://telegra.ph/file/4541a63f5fbb976dd7313.jpg",
+  "logo": "https://telegra.ph/file/c7af861c69985c2056a1e.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
