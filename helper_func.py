@@ -10,7 +10,8 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 
-from config import ADMINS, FORCE_SUB_CHANNEL1, FORCE_SUB_CHANNEL2
+from config import ADMINS, FORCE_SUB_CHANNEL1, FORCE_SUB_CHANNEL2, FORCE_SUB_CHANNEL3, FORCE_SUB_CHANNEL4, FORCE_SUB_CHANNEL5,
+
 
 
 async def is_subscribed(filter, client, update):
@@ -18,12 +19,22 @@ async def is_subscribed(filter, client, update):
         return True
     if not FORCE_SUB_CHANNEL2:
         return True
+    if not FORCE_SUB_CHANNEL3:
+        return True
+    if not FORCE_SUB_CHANNEL4:
+        return True
+    if not FORCE_SUB_CHANNEL5:
+        return True 
     user_id = update.from_user.id
     if user_id in ADMINS:
         return True
     try:
         member = await client.get_chat_member(chat_id=FORCE_SUB_CHANNEL1, user_id=user_id)
         member = await client.get_chat_member(chat_id=FORCE_SUB_CHANNEL2, user_id=user_id)
+        member = await client.get_chat_member(chat_id=FORCE_SUB_CHANNEL3, user_id=user_id)
+        member = await client.get_chat_member(chat_id=FORCE_SUB_CHANNEL4, user_id=user_id)
+        member = await client.get_chat_member(chat_id=FORCE_SUB_CHANNEL5, user_id=user_id)
+    except UserNotParticipant:
     except UserNotParticipant:
         return False
 
@@ -80,6 +91,9 @@ async def get_message_id(client, message):
             return 0
         channel_id = matches.group(1)
         msg_id = int(matches.group(2))
+        channel_id = matches.group(3)
+        msg_id = int(matches.group(4))
+        channel_id = matches.group(5)
         if channel_id.isdigit():
             if f"-100{channel_id}" == str(client.db_channel.id):
                 return msg_id
