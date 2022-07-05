@@ -1,12 +1,12 @@
 {
-  "name": "ReyyFileSharing2",
+  "name": "suoermanFileSharing5",
   "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
   "keywords": [
     "telegram",
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/ReyyNada/ReyyFileSharing2",
+  "repository": "https://github.com/supermanbot12/FSUB-5BUTTON-NIH",
   "logo": "https://telegra.ph/file/c7af861c69985c2056a1e.jpg",
   "env": {
     "TG_BOT_TOKEN": {
@@ -45,6 +45,18 @@
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
       "value": "-100"
     },
+    "FORCE_SUB_CHANNEL3": {
+      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
+      "value": "-100"
+    },
+    "FORCE_SUB_CHANNEL4": {
+      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
+      "value": "-100"
+    },
+    "FORCE_SUB_CHANNEL5": {
+      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
+      "value": "-100"
+    },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
       "value": "<b>Hello {first}\n\nSaya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>"
@@ -62,7 +74,22 @@
       "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
       "value": "pantekyks",
       "required": false
+   },
+   "CHANNEL":{
+     "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
+     "value": "anakkostasupan",
+     "required": false
+   },
+   "GROUP":{
+     "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
+     "value": "exotisidbos",
+     "required": false
    } 
+   },
+    "CHANNEL":{
+      "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
+      "value": "mahadappa",
+      "required": false
   },
   "addons": [
     {
