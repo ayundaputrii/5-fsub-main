@@ -5,7 +5,7 @@ Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link K
 <img src="https://telegra.ph/file/c628278158186a91644c5.jpg">
 
 
-### FILE SHARING 2 BUTTON 
+### FILE SHARING 5 BUTTON 
 
 - Tambahkan bot ke Channel Database dengan semua izin admin
 - Tambahkan bot ke Channel ForceSub tambahkan bot sebagai ADMIN
@@ -13,9 +13,9 @@ Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link K
 
 ##
 ### Installation
-#### Deploy on Heroku
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ReyyNada/ReyyFileSharing2"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-
+## <p align="center">DEPLOY TO WEB HEROKU</p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/supermanbot12/FSUB-5BUTTON-NIH">
+  <img src="https://img.shields.io/badge/Deploy%20To%20Web-cyan?style=flat&logo=heroku" width="220" height="38.45" /></a></p>
 
 
 #### Deploy in your VPS
