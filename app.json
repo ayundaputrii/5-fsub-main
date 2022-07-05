@@ -67,12 +67,12 @@
     },
     "CHANNEL":{
       "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "mahadappa",
+      "value": "anakkostasupan",
       "required": false
     },
     "GROUP":{
       "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "pantekyks",
+      "value": "exotisidbos",
       "required": false
    },
    "CHANNEL":{
@@ -88,7 +88,7 @@
    },
     "CHANNEL":{
       "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "mahadappa",
+      "value": "anakkostasupan",
       "required": false
   },
   "addons": [
